@@ -1,0 +1,5 @@
+Master=Character/Master
+Warrior=Character/Warrior
+Effect_skill_banyuezhan_Hit=Effect_skill_banyuezhan_Hit
+Effect_skill_nan_daoguang_start=Effect_skill_nan_daoguang_start
+Effect_skill_nan_Hit=Effect_skill_nan_Hit

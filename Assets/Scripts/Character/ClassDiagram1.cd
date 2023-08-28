@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ARPGDemo01.Character.CharacterAnimationParameter">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAQCAAAAAAABAAAAAAAAAEACAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\CharacterAnimationParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo01.Character.CharacterInputController">
+    <Position X="2.25" Y="1.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIwBBABEAAkAAAAJACAgAACAAAABAAAIAQAAAgAACEA=</HashCode>
+      <FileName>Assets\Scripts\Character\CharacterInputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo01.Character.CharacterMotor">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAECAAAAEABAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\CharacterMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo01.Character.EnemyStatus" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\EnemyStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo01.Character.PlayerStatus">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAACAAAAAAAAEAAAAAAAAAACAgAAAAAAAAAgE=</HashCode>
+      <FileName>Assets\Scripts\Character\PlayerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo01.Character.CharacterStatus">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAEAAAAAAAAAAIARJAAAAAgAAAAAECAAAI=</HashCode>
+      <FileName>Assets\Scripts\Character\CharacterStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AI.FSM.FSMBase" Collapsed="true">
+    <Position X="12" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAQAFAwCgAgBAAIAQBAggEAAAADAAEAUAKAAAAiAQ=</HashCode>
+      <FileName>Assets\Scripts\FSM\FSMBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.FSMState" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAAAAAAMIAAAAYAAAQAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\FSMState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.FSMTrigger">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\FSMTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.AttackingState" Collapsed="true">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\AttackingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.DeadState" Collapsed="true">
+    <Position X="5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\DeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.IdleState" Collapsed="true">
+    <Position X="7.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.PursuitState" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\PursuitState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.KilledTargetTrigger">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\KilledTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.LoseTargetTrigger">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\LoseTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.NoHealthTrigger">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\NoHealthTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.ReachTargetTrigger">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\ReachTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.SawTargetTrigger">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="AI.FSM.FSMTrigger" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="3" />
+        <Point X="6.25" Y="2.51" />
+        <Point X="8.625" Y="2.51" />
+        <Point X="8.625" Y="1.875" />
+        <Point X="10.875" Y="1.875" />
+        <Point X="10.875" Y="2.25" />
+        <Point X="10.5" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\SawTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.WithoutAttackRangeTrigger" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\WithoutAttackRangeTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AI.FSM.FSMStateID" Collapsed="true">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAAAAAIAAAQAAAAAAAAAAACAEIAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\FSMStateID.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AI.FSM.FSMTriggerID" Collapsed="true">
+    <Position X="13.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACAAAAAAAACAAAAAAAAgAAAAAAAAEAAACQAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Common\FSMTriggerID.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

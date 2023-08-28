@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace ns
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class Test2 : MonoBehaviour
+    {
+        public void PrintTow()
+        {
+            print(22222);
+        }
+    }
+
+}

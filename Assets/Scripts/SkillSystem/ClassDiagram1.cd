@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ARPGDemo01.Character.CharacterInputController">
+    <Position X="0.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIwBBABAAAEAIAAJCCAwAACAAAABAgAIAQCAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Character\CharacterInputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo.Skill.CharacterSkillManager">
+    <Position X="3.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAACAAAAAAAAAAAAAEAAAACAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Common\CharacterSkillManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo.Skill.SkillData">
+    <Position X="16.75" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIABAAiAAEJACIAKAEAAEEgRAAQkJAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Common\SkillData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo.Skill.SkillDeployer">
+    <Position X="6.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACACAAAAAAAQACAAAAAgAAAAIAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Deployer\SkillDeployer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo.Skill.DeployerConfigFactory">
+    <Position X="12.5" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Deployer\DeployerConfigFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo.Skill.MeleeSkillDeployer">
+    <Position X="5.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Deployer\MeleeSkillDeployer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPGDemo.Skill.SectorAttackSelector">
+    <Position X="12.25" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Selectors\SectorAttackSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ARPGDemo.Skill.IImpactEffect">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\ImpactEffects\IImpactEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ARPGDemo.Skill.IAttackSelector">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SkillSystem\Selectors\IAttackSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
